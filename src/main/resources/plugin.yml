@@ -1,0 +1,13 @@
+name: ShopSearch
+version: '1.0.0'
+main: me.devJuban.shopSearch.ShopSearch
+api-version: '1.16'
+authors: [juban120]
+
+loadbefore: [EconomyShopGUI]
+depend: [EconomyShopGUI]
+
+commands:
+  shop:
+    usage: /shop [<section> | search] <player>
+    description: Open the shop or search
